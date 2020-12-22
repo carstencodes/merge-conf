@@ -164,12 +164,13 @@ class MultiConfigurationSource:
             configuration object has been provided on the construction
             of this instance.
         """
-        merger: _NamespaceMerger = _NamespaceMerger(self.__target)
+        result = self.__target
+        merger: _NamespaceMerger = _NamespaceMerger(result)
         for source in self.__sources:
             items: dict = source.read()
-            merger.merge(items)
+            result = merger.merge(items)
 
-        return merger
+        return result
 
 
 class ConfigurationProvider:
