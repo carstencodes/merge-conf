@@ -1,0 +1,4 @@
+pyyaml >= 5.3
+python-dotenv >= 0.15
+toml >= 0.10
+xdg >= 5

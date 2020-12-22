@@ -1,0 +1,22 @@
+# Include pre-requirements
+-r requirements.pre.txt
+
+# Include regular requirements
+-r requirements.txt
+
+# Testing requirements
+pytest >= 6.2.0
+pytest-cov >= 2.10.0
+
+# Deployment requirements
+twine >= 3.2.0
+
+# Development tools
+pycodestyle
+flake8
+pylint
+mypy
+black
+sphinx
+sphinx-rtd-theme
+bump2version
