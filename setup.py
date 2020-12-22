@@ -22,11 +22,11 @@ setup(
     license="BSD-3-Clause",
     author="Carsten Igel",
     author_email="cig@bite-that-bit.de",
-    description="A simple storage system for dataclasses.",
+    description="Combine multiple configuration sources to a single configuration object.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(where="src"),
-    url="https://github.com/carstencodes/dcstore",
+    url="https://github.com/carstencodes/multiconf-py",
     install_requires=["xdg"],
     extras_require={
         "yaml": ["pyyaml"],
