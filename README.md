@@ -51,3 +51,7 @@ toml file support (toml)
 ## Licensing
 
 This library is published under BSD-3-Clause license.
+
+## Versioning
+
+This library follows semantic versioning 2.0. Any breaking change will produce a new major release. Versions below 1.0 are considered to have a unstable interface.
