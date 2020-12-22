@@ -1,77 +1,77 @@
-multiconf package
+merge_conf package
 =================
 
 Submodules
 ----------
 
-multiconf.argparse module
+merge_conf.argparse module
 -------------------------
 
-.. automodule:: multiconf.argparse
+.. automodule:: merge_conf.argparse
    :members:
    :undoc-members:
    :show-inheritance:
 
-multiconf.base module
+merge_conf.base module
 ---------------------
 
-.. automodule:: multiconf.base
+.. automodule:: merge_conf.base
    :members:
    :undoc-members:
    :show-inheritance:
 
-multiconf.configparser module
+merge_conf.configparser module
 -----------------------------
 
-.. automodule:: multiconf.configparser
+.. automodule:: merge_conf.configparser
    :members:
    :undoc-members:
    :show-inheritance:
 
-multiconf.dotenv module
+merge_conf.dotenv module
 -----------------------
 
-.. automodule:: multiconf.dotenv
+.. automodule:: merge_conf.dotenv
    :members:
    :undoc-members:
    :show-inheritance:
 
-multiconf.json module
+merge_conf.json module
 ---------------------
 
-.. automodule:: multiconf.json
+.. automodule:: merge_conf.json
    :members:
    :undoc-members:
    :show-inheritance:
 
-multiconf.module module
+merge_conf.module module
 -----------------------
 
-.. automodule:: multiconf.module
+.. automodule:: merge_conf.module
    :members:
    :undoc-members:
    :show-inheritance:
 
-multiconf.osenv module
+merge_conf.osenv module
 ----------------------
 
-.. automodule:: multiconf.osenv
+.. automodule:: merge_conf.osenv
    :members:
    :undoc-members:
    :show-inheritance:
 
-multiconf.toml module
+merge_conf.toml module
 ---------------------
 
-.. automodule:: multiconf.toml
+.. automodule:: merge_conf.toml
    :members:
    :undoc-members:
    :show-inheritance:
 
-multiconf.yaml module
+merge_conf.yaml module
 ---------------------
 
-.. automodule:: multiconf.yaml
+.. automodule:: merge_conf.yaml
    :members:
    :undoc-members:
    :show-inheritance:
@@ -79,7 +79,7 @@ multiconf.yaml module
 Module contents
 ---------------
 
-.. automodule:: multiconf
+.. automodule:: merge_conf
    :members:
    :undoc-members:
    :show-inheritance:

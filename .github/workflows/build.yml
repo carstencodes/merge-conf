@@ -36,7 +36,7 @@ jobs:
           # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Run pylint
-        run: pylint src/multiconf
+        run: pylint src/merge_conf
 
   test:
     runs-on: ubuntu-latest
@@ -60,7 +60,7 @@ jobs:
           pip install pytest pytest-cov
           pip install -r requirements.txt
       - name: Test with coverage
-        run: pytest --cov=multiconf tests/
+        run: pytest --cov=merge_conf tests/
 
   package:
     runs-on: ubuntu-latest

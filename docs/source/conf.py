@@ -20,7 +20,7 @@ sys.path.insert(0, os.path.abspath(os.path.join("..", "..", "src")))
 
 # -- Project information -----------------------------------------------------
 
-project = "multiconf"
+project = "merge_conf"
 copyright = "2020, Carsten Igel"
 author = "Carsten Igel"
 

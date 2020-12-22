@@ -1,8 +1,8 @@
 #
 # Copyright (c) 2020 Carsten Igel.
 #
-# This file is part of multiconf-py
-# (see https://github.com/carstencodes/multiconf-py).
+# This file is part of merge-conf
+# (see https://github.com/carstencodes/merge-conf).
 #
 # License: 3-clause BSD, see https://opensource.org/licenses/BSD-3-Clause
 #

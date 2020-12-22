@@ -2,8 +2,8 @@
 #
 # Copyright (c) 2020 Carsten Igel.
 #
-# This file is part of multiconf-py
-# (see https://github.com/carstencodes/multiconf-py).
+# This file is part of merge-conf
+# (see https://github.com/carstencodes/merge-conf).
 #
 # License: 3-clause BSD, see https://opensource.org/licenses/BSD-3-Clause
 #
@@ -17,7 +17,7 @@ with open("README.md", "r") as read_me_file:
     long_description = read_me_file.read()
 
 setup(
-    name="multiconf",
+    name="merge-conf",
     version=__VERSION__,
     license="BSD-3-Clause",
     author="Carsten Igel",
@@ -26,7 +26,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(where="src"),
-    url="https://github.com/carstencodes/multiconf-py",
+    url="https://github.com/carstencodes/merge-conf",
     install_requires=["xdg"],
     extras_require={
         "yaml": ["pyyaml"],
