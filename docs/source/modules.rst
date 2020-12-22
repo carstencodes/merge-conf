@@ -1,7 +1,7 @@
-multiconf
+merge_conf
 =========
 
 .. toctree::
    :maxdepth: 4
 
-   multiconf
+   merge_conf

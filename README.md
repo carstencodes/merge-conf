@@ -1,4 +1,4 @@
-# Multiconf-py
+# merge-conf
 
 A configuration aggregator for multiple configuration sources.
 
@@ -21,17 +21,17 @@ The basic entry point is the so called `MultiConfigurationSource`. It can be ini
 
 ```python
 
-import multiconf
+import merge_conf
 
 config = None # Create existing object
 arguments = None # Argument parser result namespace
 
-source = multiconf.MultiConfigurationSource(config)
-source.add(multiconf.ConfigFileConfigurationSource(
+source = merge_conf.MultiConfigurationSource(config)
+source.add(merge_conf.ConfigFileConfigurationSource(
     # Configuration file path
 ))
-source.add(multiconf.EnvironmentVariableSource("MY_APP"))
-source.add(multiconf.ArgParseSource(arguments))
+source.add(merge_conf.EnvironmentVariableSource("MY_APP"))
+source.add(merge_conf.ArgParseSource(arguments))
 
 config = source.read_configuration()
 ```
